@@ -15,7 +15,8 @@ export const uploadJSONToBucket = async(JSONBody) => {
      console.log(JSONBody);
     return axios 
         .post(url, JSONBody,{headers:{
-            "Access-Control-Allow-Origin":"*"
+            "Access-Control-Allow-Origin":"*",
+            "Content-Type": "application/json"
         }})
         .then(function (response) {
            return {
