@@ -112,7 +112,7 @@ async function connectWebsite() {
 
     return (
       <div className="">
-        {loading && <Loader />}
+        {loading && connected && <Loader />}
         
         <nav className="w-screen">
           <ul className='flex items-end justify-between py-3 bg-transparent text-white pr-5'>
