@@ -1,0 +1,9 @@
+artifacts/
+cache/
+contracts/
+node_modules/
+scripts/
+test/
+.env
+hardhat.config.js
+
