@@ -45,7 +45,7 @@ async function connectWebsite() {
   }
 
   if (isMobileDevice()) {
-    const dappUrl = "http://192.168.1.45:3000"; // TODO enter your dapp URL. For example: https://uniswap.exchange. (don't enter the "https://")
+    const dappUrl = "https://nftberyl.netlify.app/"; // TODO enter your dapp URL. For example: https://uniswap.exchange. (don't enter the "https://")
     const metamaskAppDeepLink = "https://metamask.app.link/dapp/" + dappUrl;
    
     window.open(metamaskAppDeepLink)
